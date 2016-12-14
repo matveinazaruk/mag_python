@@ -18,7 +18,7 @@ def x_range( *args):
 
 #Correct
 assert list(x_range(1, 5, 2)) == list(range(1, 5, 2))
-assert list(x_range(1, 5, -2)) == list(range(1, 5, -2))
+assert list(x_range(5, 1, -2)) == list(range(5, 1, -2))
 assert list(x_range(1, 5)) == list(range(1, 5))
 assert list(x_range(5)) == list(range(5))
 
